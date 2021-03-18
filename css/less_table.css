@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-bottom: 4px solid rgb(255, 14, 14);
+    border-left: 4px solid green;
+    border-right: 4px solid yellow;
+    border-top: 4px solid magenta;
+    border-spacing: 0px;
+}
+
+caption {
+    font-size: 18px;
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+th {
+    background-color: rgb(177, 177, 177);
+    border: 3px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border-bottom: 4px solid black; */
+}
+
+td {
+    border: 1px solid rgb(177, 177, 177);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.table_total {
+    height: 40px;
+    background-color: chartreuse;
+}
