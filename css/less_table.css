@@ -2,7 +2,7 @@ table {
     border-collapse: collapse;
     border: 1px solid black;
     border-bottom: 4px solid rgb(255, 14, 14);
-    border-left: 4px solid green;
+    border-left: 4px solid rgb(17, 194, 1);
     border-right: 4px solid yellow;
     border-top: 4px solid magenta;
     border-spacing: 0px;
@@ -10,7 +10,7 @@ table {
 
 caption {
     font-size: 18px;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(155, 155, 155);
     color: white;
 }
 
@@ -23,7 +23,7 @@ th {
 }
 
 td {
-    border: 1px solid rgb(177, 177, 177);
+    border: 1px solid rgb(204, 204, 204);
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
@@ -31,5 +31,6 @@ td {
 
 .table_total {
     height: 40px;
-    background-color: chartreuse;
+    background-color: rgb(29, 172, 0);
+    color: white;
 }
